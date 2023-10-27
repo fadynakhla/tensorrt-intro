@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tensorrt-intro"
+version = "0.1.0"
+description = ""
+authors = ["Fady Nakhla <fnakhla23@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tensorrt_intro"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
